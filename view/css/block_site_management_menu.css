@@ -1,0 +1,69 @@
+﻿.mt-12{
+	margin-top: 15%;
+}
+.mt-7{
+	margin-top: 7%;
+}
+.button_css_site_management_menu{
+	background-color: PeachPuff;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-family: Trebuchet MS, sans-serif;
+	font-weight: 600;
+}
+.button_css_site_management_menu img{
+	width: 30px;
+	height: 30px;
+	margin-left: 3%;
+}
+.block_create_project{
+	width: 45%;
+	height: 130px;
+	position: absolute;
+	top: 27%;
+	background-color: DarkSeaGreen;
+	left: 27%;
+	border-radius: 9px;
+}
+.h2_create_project{
+	font-family: Trebuchet MS, sans-serif;
+	margin-top: 1.5%;
+	font-size: 26px;
+}
+.css_button_create_project{
+	margin-top: 1.5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 600;
+}
+.active_button{
+	background-color: silver;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-family: Trebuchet MS, sans-serif;
+	font-weight: 600;
+
+}
+.fix_bug_1_css{
+	position: relative;
+	left: -4.5%;
+}
+.fix_bug_2_css{
+	position: relative;
+	left: 4.5%;
+}
+.fix_bug_3_css{
+	position: relative;
+	left: -7%;
+	top: 11%;
+}
+.fix_bug_4_css{
+	position: relative;
+	left: 0%;
+	top: 11%;
+}
+.fix_bug_5_css{
+	position: relative;
+	left: 7%;
+	top: 11%;
+}

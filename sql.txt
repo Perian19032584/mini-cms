@@ -1,0 +1,18 @@
+create table temporary_user(
+    id INT not null, 
+    email varchar (100) not null,
+    time varchar (3) not null,	
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE `temporary_user` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+
+
+create table user(
+	id INT not null,
+        name varchar (30) not null,
+        email varchar (70) not null,
+        password varchar (100) not null,
+        PRIMARY KEY (id)	
+)
+ALTER TABLE `user` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;

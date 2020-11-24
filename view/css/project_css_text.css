@@ -1,0 +1,207 @@
+.exit_editing_and_view_project{
+	position: absolute;
+	display: inline-block;
+	color: red;
+	left: 96%;
+	top: 10px;
+	font-size: 15px;
+	letter-spacing: 0.7px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#create_button{
+	position: absolute;
+	top: 40%;
+	cursor: pointer;
+	left:0.3%;
+}
+#page{
+	cursor: pointer;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 35%;
+	left:0.3%;
+}
+#add_menu-category{
+	position: absolute;
+	top: 38.3%;
+	width: 200px;
+	left: 50px;
+	display: none;
+}
+#add_menu-category span{
+	background-color: white;
+	text-align: center;
+	display: block;
+	border: 1px solid black;
+	font-weight: 700;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+
+}
+#form_create_text{
+	position: absolute;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 40%;
+	height: 400px;
+	left: 30%;
+	border-radius: 0px 0px 15px 15px;
+	box-shadow: 0px 0px 5px black;
+	display: none;
+}
+#form_create_text h1{
+	font-size: 19px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 10px;
+	letter-spacing: 0.7px;
+}
+#result{
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	top: 30%;
+}
+#mini_menu{
+	display: none;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#mini_menu span{
+	font-weight: 700;
+	letter-spacing: 0.7px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-style: italic;
+	background-color: silver;
+	width: 150px;
+	padding-left: 15px;
+	text-align: center;
+	padding-right: 18px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-top: 1px solid black;
+}
+#mini_menu span:hover{
+	background-color: #DCDCDC;
+}
+#form-delete-project_mini_menu h1{
+	color: red;
+	display: block;
+	text-align: center;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 25px;
+}
+#form-delete-project_mini_menu span{
+	position: relative;
+	top: 50px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 10px;
+	border-radius: 7px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	background-color: green;
+	color: white;
+	font-size: 17px;
+	cursor: pointer;
+	letter-spacing: 0.7px;
+	border: 1px solid black;
+	margin-left: 50px;
+}
+#form-delete-project_mini_menu span:last-child{
+	background-color: red;
+	margin-left: 120px;
+}
+#form-delete-project_mini_menu{
+	position: absolute;
+	width: 450px;
+	height: 200px;
+	background-color: white;
+	left: 35.7%;
+	z-index: 15;
+	top: 35%;
+	border-radius: 25px;
+}
+#close_block_all{
+	position: absolute;
+	top: 0.1px;
+	width: 100%;
+	opacity: 0.5;
+	height: 100%;
+	z-index: 10;
+	background-color: black;
+}
+#form_create_text span{
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: gray;
+	color: white;
+	font-style: italic;
+	letter-spacing: 0.7px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 10%;
+}
+#form_create_text span:nth-child(3){
+	margin-left: 20%;
+}
+#form_create_text span:nth-child(4){
+	margin-left: 21%;
+}
+#form_create_text input{
+	display: block;
+	width: 80%;
+	height: 40px;
+	margin-left: 10%;
+	margin-top: 2.5%;
+	padding-left: 10px;
+	text-align: center;
+	letter-spacing: 0.7px;
+	font-weight: 700;
+	display: none;
+}
+#form_create_text_input{
+	position: relative;
+	top: 50px;
+}
+.button_style_category{
+	position:relative;
+	left: 60%;
+	top: 36%;
+	background-color: gray;
+	font-weight: 700;
+	padding: 5px 10px 5px 10px;
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 1%;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+.button_style_category_active{
+	background-color: silver !important;
+	color: black !important;
+}
